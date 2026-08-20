@@ -1,0 +1,31 @@
+{
+  "name": "LifeCheck",
+  "short_name": "LifeCheck",
+  "description": "Secure welfare check-ins and legacy access management.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Vault Access",
+      "short_name": "Vault",
+      "description": "Open the secure beneficiary vault access flow.",
+      "url": "/vault-access"
+    },
+    {
+      "name": "Check-In",
+      "short_name": "Check-In",
+      "description": "Open the latest check-in dashboard.",
+      "url": "/check-in"
+    }
+  ]
+}
